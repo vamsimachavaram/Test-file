@@ -1,0 +1,22 @@
+package com.testcode;
+
+public class Test1 {
+ static int data=50;  
+			  
+			 void change(int data){  
+				 System.out.println("data  :"+data);
+			 data=data+100;//changes will be in the local variable only  
+			 }  
+	public static void main(String[] args) {
+	
+			   Test1 op=new Test1();  
+			  
+			   System.out.println("before change "+op.data);  
+			   op.change(500);  
+			   System.out.println("after change "+op.data);  
+			  
+			
+
+	}
+
+}
