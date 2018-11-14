@@ -1,0 +1,13 @@
+Know we start discussion with how a secondary boot loader is loaded by rom boot loader(RBL)
+
+
+
+
+
+
+
+
+	
+When you give power to SOC it go to power on reset and ROM boot loader (RBL) is first S/W component run in soc.
+ROM code startup sequence
+
